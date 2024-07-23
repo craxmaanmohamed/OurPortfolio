@@ -90,7 +90,7 @@ export default function Home() {
             <div class="space-y-2">
                 <h3 class="font-bold">Components</h3>
                 <p class="text-sm text-muted-foreground">UI components built using Radix UI and styled with Tailwind
-                    CSS.</p>
+                    CSS</p>
             </div>
         </div>
     </div>
