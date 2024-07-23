@@ -6,6 +6,7 @@ import { MdEmojiTransportation } from "react-icons/md";
 import { GrBlockQuote } from "react-icons/gr";
 import { BiSolidLike } from "react-icons/bi";
 import { RiCodeView } from "react-icons/ri";
+import { FaPeopleRobbery } from "react-icons/fa6";
 import { GrDomain } from "react-icons/gr";
 import { MdDesignServices } from "react-icons/md";
 export default function Home() {
@@ -18,9 +19,9 @@ export default function Home() {
           <div class="container mx-auto h-full sm:p-10">
             <header class="container px-4 lg:flex mt-10 items-center h-full lg:mt-0">
               <div class="w-full">
-                <h1 class="text-4xl lg:text-6xl font-bold text-spr-color">Cab oo Ku cab <span class="text-pr-color">Caafi</span> Caafimaad</h1>
+                <h1 class="text-4xl lg:text-6xl font-bold text-spr-color">We can help you <span class="text-pr-color">succeed</span>  your business</h1>
                 <div class="w-20 h-2 bg-pr-color my-4"></div>
-                <p class="text-xl mb-10 text-spr-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores neque eaque ea odit placeat, tenetur illum distinctio nulla voluptatum a corrupti beatae tempora aperiam quia id aliquam possimus aut.</p>
+                <p class="text-xl mb-10 text-spr-color">Our team of dedicated professionals excels in web development, web redesign, and software development. We create innovative and customized digital solutions to meet your business needs.</p>
                 <button class="transition-all duration-500 bg-gradient-to-r text-white from-pr-color to-spr-color hover:opacity-80 focus:opacity-80 hover:text-white hover:bg-transparent border-2 text-white text-2xl font-medium px-4 py-2 rounded shadow">Contac Us</button>
               </div>
 
@@ -45,7 +46,7 @@ export default function Home() {
                   <div class="px-10 py-6">
                     <div class="flex items-center">
                       <p class="flex-shrink-0 text-3xl font-bold text-blue-600 sm:text-3xl">100%</p>
-                      <p class="pl-6 text-x font-medium text-black sm:text-lg">Safe water supply <br />to all Somali local </p>
+                      <p class="pl-6 text-x font-medium text-black sm:text-lg">highly skilled and  <br />dedicated professionals </p>
                     </div>
                   </div>
                 </div>
@@ -56,8 +57,8 @@ export default function Home() {
               <div class="flex items-center justify-center w-16 h-16 bg-white rounded-full">
                 <FcAbout class="w-8 h-8 bg-white" />
               </div>
-              <h2 class="mt-10 text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">waa kuma Caafi</h2>
-              <p class="mt-6 mb-10 text-lg leading-relaxed text-gray-600">Shirkadda biyaha CAAFI waxaa la aasaasay sanadkii 1999 waxaana lagu aasaasay caasimadda dalka ee magalada Muqdisho. Xarunta ugu wayn ee shirkadda waxay ku taalaa magaalada Muqclisho..</p>
+              <h2 class="mt-10 text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">Who we are</h2>
+              <p class="mt-6 mb-10 text-lg leading-relaxed text-gray-600"> our development team is the backbone of our success. Comprised of highly skilled and dedicated professionals, we specialize in creating innovative and user-friendly web solutions that meet the unique needs of our clients</p>
               <a href="#" title="" class="transition-all duration-500 bg-gradient-to-r text-white from-pr-color to-spr-color hover:opacity-80 focus:opacity-80 hover:text-white hover:bg-transparent border-2  hotext-white text-2xl font-medium px-4 py-2 rounded shadow" role="button"> Learn more </a>
             </div>
           </div>
@@ -70,7 +71,7 @@ export default function Home() {
 
 <div class="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
 
-    <h2 class="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-6xl">Features</h2>
+    <h2 class="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-6xl">Our Servicess</h2>
 
     <p class="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
         The product can personalize user experiences by understanding individual preferences and tailoring
@@ -88,9 +89,8 @@ export default function Home() {
         <MdDesignServices  class="flex-shrink-0 w-12 h-12 text-pr-color"/>
 
             <div class="space-y-2">
-                <h3 class="font-bold">Components</h3>
-                <p class="text-sm text-muted-foreground">UI components built using Radix UI and styled with Tailwind
-                    CSS</p>
+                <h3 class="font-bold">Web Development</h3>
+                <p class="text-sm text-muted-foreground">Crafting dynamic and responsive websites tailored to your business needs.</p>
             </div>
         </div>
     </div>
@@ -101,8 +101,8 @@ export default function Home() {
         <RiCodeView  class="flex-shrink-0 w-12 h-12 text-pr-color"/>
 
             <div class="space-y-2">
-                <h3 class="font-bold">Authentication</h3>
-                <p class="text-sm text-muted-foreground">Authentication using NextAuth.js and middlewares.</p>
+                <h3 class="font-bold">Software Development</h3>
+                <p class="text-sm text-muted-foreground">Creating custom software solutions to streamline your business operations.</p>
             </div>
         </div>
     </div>
@@ -113,8 +113,8 @@ export default function Home() {
         <GrDomain  class="flex-shrink-0 w-12 h-12 text-pr-color"/>
 
             <div class="space-y-2">
-                <h3 class="font-bold">Subscriptions</h3>
-                <p class="text-sm text-muted-foreground">Free and paid subscriptions using Stripe.</p>
+                <h3 class="font-bold">Redesing Web Development</h3>
+                <p class="text-sm text-muted-foreground">Revamping existing websites to enhance aesthetics, functionality, and user experience.</p>
             </div>
         </div>
     </div>
@@ -135,7 +135,7 @@ export default function Home() {
                     <div class="flex items-start">
                         <IoMdTimer  class="flex-shrink-0 w-12 h-12 text-pr-color"/>
                         <div class="ml-4">
-                            <h4 class="text-4xl font-bold text-gray-900">25+</h4>
+                            <h4 class="text-4xl font-bold text-gray-900">3+</h4>
                             <p class="mt-1.5 text-lg font-medium leading-tight text-gray-500">Years of Experience</p>
                         </div>
                     </div>
@@ -147,7 +147,7 @@ export default function Home() {
                     <div class="flex items-start">
                         <RiTeamLine class="flex-shrink-0 w-12 h-12 text-pr-color" />
                         <div class="ml-4">
-                            <h4 class="text-4xl font-bold text-gray-900">100+</h4>
+                            <h4 class="text-4xl font-bold text-gray-900">3+</h4>
                             <p class="mt-1.5 text-lg font-medium leading-tight text-gray-500">Team members</p>
                         </div>
                     </div>
@@ -157,10 +157,10 @@ export default function Home() {
             <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
                 <div class="px-4 py-6">
                     <div class="flex items-start">
-                        <MdEmojiTransportation class="flex-shrink-0 w-12 h-12 text-pr-color"/>
+                        <FaPeopleRobbery class="flex-shrink-0 w-12 h-12 text-pr-color"/>
                         <div class="ml-4">
-                            <h4 class="text-4xl font-bold text-gray-900">23+</h4>
-                            <p class="mt-1.5 text-lg font-medium leading-tight text-gray-500">Transport</p>
+                            <h4 class="text-4xl font-bold text-gray-900">71+</h4>
+                            <p class="mt-1.5 text-lg font-medium leading-tight text-gray-500">our Clients</p>
                         </div>
                     </div>
                 </div>
@@ -171,7 +171,7 @@ export default function Home() {
                     <div class="flex items-start">
                         <BiSolidLike class="flex-shrink-0 w-12 h-12 text-pr-color"/>
                         <div class="ml-4">
-                            <h4 class="text-4xl font-bold text-gray-900">250k+</h4>
+                            <h4 class="text-4xl font-bold text-gray-900">69+</h4>
                             <p class="mt-1.5 text-lg font-medium leading-tight text-gray-500">Happy Clients</p>
                         </div>
                     </div>

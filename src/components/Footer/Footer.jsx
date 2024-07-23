@@ -11,7 +11,7 @@ export default function Footer() {
               <img width={100} height={100}  class="w-auto h-7" src="/images/black logo.png" alt="" />
             </a>
 
-            <p class="max-w-sm mt-2 text-gray-500 dark:text-gray-400">Shirkadda biyaha CAAFI waxaa la aasaasay sanadkii 1999 waxaana lagu aasaasay caasimadda dalka ee magalada Muqdisho.</p>
+            <p class="max-w-sm mt-2 text-gray-500 dark:text-gray-400">our development team is the backbone of our success. Comprised of highly skilled and dedicated professionals,</p>
             <div class="flex mt-6 -mx-2">
               <a href="#"
                 class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
@@ -41,15 +41,15 @@ export default function Footer() {
 
         <div>
           <h3 class="text-gray-700 uppercase dark:text-white">Contact us</h3>
-          <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">3366</span>
-          <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"> info@caafi.so</span>
+          <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">0000</span>
+          <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"> info@ourport.so</span>
         </div>
       </div>
 
       <hr class="h-px my-6 bg-gray-200 border-none dark:bg-gray-700" />
 
       <div>
-        <p class="text-center text-gray-500 dark:text-gray-400">© Caafi 2024 - All rights reserved</p>
+        <p class="text-center text-gray-500 dark:text-gray-400">© Our Portflio 2024 - All rights reserved</p>
       </div>
     </div>
   </footer>
