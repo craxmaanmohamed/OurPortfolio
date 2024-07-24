@@ -1,7 +1,24 @@
-// bilaaw
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Our Portfolio
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Our Portfolio is a React-based web application developed as a final project for the Advanced Web Development course. It showcases our skills in React, including hooks, routing, state management, and component design.
+
+## Features
+
+Routing: Managed with React Router DOM.
+State Management: Utilizes React hooks (`useState`, `useEffect`, `useContext`).
+Components: Includes various functional components.
+Dynamic Data: Integrates API calls and mock data.
+Form Handling: Manages user input with forms.
+Styling: Enhanced with Tailwind CSS.
+
+## Deployment
+
+Live Site: [Our Portfolio on Vercel](https://our-portfolio-ivory.vercel.app/)
+
+## GitHub Repository
+
+Repository Link: [GitHub Repository](https://github.com/craxmaanmohamed/OurPortfolio)
+
+
