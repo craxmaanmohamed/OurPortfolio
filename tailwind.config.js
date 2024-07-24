@@ -18,6 +18,10 @@ export default {
 
 
     },
+    height:{
+      "50vh":"80vh"
+      
+    },
     colors:{
       'pr-color':'rgb(23, 155, 215, 1)',
       'Gold-color':'rgb(225, 215, 0)',
