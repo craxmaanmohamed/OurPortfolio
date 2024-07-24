@@ -10,7 +10,7 @@ const BlogDetail = () => {
   const blog = blogs.find(blog => blog.id === parseInt(id, 10)); // Find the blog by ID
 
   if (!blog) {
-    return <p>Blog not found</p>;
+    return <p>Blog Not Found</p>;
   }
 
   return (
