@@ -121,7 +121,7 @@ export default function ContactUs() {
                         name="email"
                         value={formData.email}
                         onChange={handleChange}
-                        placeholder="Enter Your Email"
+                        placeholder="Enter Your Email."
                         className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-spr-color rounded-md focus:border-spr-color focus:ring-pr-color focus:ring-opacity-40 focus:outline-none focus:ring"
                       />
                     </div>
@@ -133,7 +133,7 @@ export default function ContactUs() {
                         value={formData.message}
                         onChange={handleChange}
                         className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 bg-white border border-spr-color rounded-md focus:border-spr-color focus:ring-pr-color focus:ring-opacity-40 focus:outline-none focus:ring"
-                        placeholder="Message"
+                        placeholder="Message."
                       ></textarea>
                     </div>
 
