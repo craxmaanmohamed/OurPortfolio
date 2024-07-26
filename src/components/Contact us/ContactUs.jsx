@@ -109,7 +109,7 @@ export default function ContactUs() {
                         name="fullName"
                         value={formData.fullName}
                         onChange={handleChange}
-                        placeholder="Faarah Abdule"
+                        placeholder="Enter Your Name"
                         className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-spr-color rounded-md focus:border-spr-color focus:ring-pr-color focus:ring-opacity-40 focus:outline-none focus:ring"
                       />
                     </div>
@@ -121,7 +121,7 @@ export default function ContactUs() {
                         name="email"
                         value={formData.email}
                         onChange={handleChange}
-                        placeholder="Faarah@gmail.com"
+                        placeholder="Enter Your Email"
                         className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-spr-color rounded-md focus:border-spr-color focus:ring-pr-color focus:ring-opacity-40 focus:outline-none focus:ring"
                       />
                     </div>
