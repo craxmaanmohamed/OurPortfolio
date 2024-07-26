@@ -127,7 +127,7 @@ export default function ContactUs() {
                     </div>
 
                     <div className="w-full mt-6">
-                      <label className="block mb-2 text-sm text-gray-600">Message</label>
+                      <label className="block mb-2 text-sm text-gray-600">Message.</label>
                       <textarea
                         name="message"
                         value={formData.message}
