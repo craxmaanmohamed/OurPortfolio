@@ -21,4 +21,6 @@ Live Site: [Our Portfolio on Vercel](https://our-portfolio-ivory.vercel.app/)
 
 Repository Link: [GitHub Repository](https://github.com/craxmaanmohamed/OurPortfolio)
 
+#npm run dev
+
 
