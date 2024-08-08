@@ -25,7 +25,7 @@ export default function ContactUs() {
                 <p className="flex items-start -mx-2">
                   <CiLocationOn className='h-6 w-6 text-pr-color' />
                   <span className="mx-2 text-black truncate w-72">
-                    Wadada warshadaha (Mogadishu Somalia)
+                    Wadada warshadaha (Mogadisho Somalia)
                   </span>
                 </p>
 
