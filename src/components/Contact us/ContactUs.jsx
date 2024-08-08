@@ -3,9 +3,28 @@ import { IoIosCall } from "react-icons/io";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
 import { FaSquareXTwitter, FaSquareYoutube } from "react-icons/fa6";
-import { CiLocationOn } from "react-icons/ci";
+import { CiLocationOn } from "react-icons/ci";  // Ensure this import is present
 
 export default function ContactUs() {
+  const [submitted, setSubmitted] = useState(false);  // Add state for submission
+  const [formData, setFormData] = useState({ fullName: '', email: '', message: '' });
+  const [error, setError] = useState('');
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (!formData.fullName || !formData.email || !formData.message) {
+      setError('Please fill out all fields.');
+    } else {
+      setSubmitted(true);
+    }
+  };
 
   return (
     <>
@@ -25,7 +44,7 @@ export default function ContactUs() {
                 <p className="flex items-start -mx-2">
                   <CiLocationOn className='h-6 w-6 text-pr-color' />
                   <span className="mx-2 text-black truncate w-72">
-                    Wadada warshadaha (Mogdisho Somalia)
+                    Wadada warshadaha (Mogadisho Somalia)
                   </span>
                 </p>
 
@@ -121,9 +140,6 @@ export default function ContactUs() {
           </div>
         </div>
       </section>
-
-    
-     
     </>
   );
 }
